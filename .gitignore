@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Generated outputs
+results/
+*.log
+
+# Local knowledge/cache
+.qoder/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Swift/Xcode build artifacts
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Temporary
+*.tmp
+*.swp

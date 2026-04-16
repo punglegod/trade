@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F6000000000201 /* AppShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000110 /* AppShellView.swift */; };
+		A1B2C3D4E5F6000000000202 /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000111 /* AppTab.swift */; };
+		A1B2C3D4E5F6000000000203 /* TradeReplayAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000112 /* TradeReplayAssistantApp.swift */; };
+		A1B2C3D4E5F6000000000204 /* LocalTradeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000113 /* LocalTradeStore.swift */; };
+		A1B2C3D4E5F6000000000205 /* MockRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000114 /* MockRemoteDataSource.swift */; };
+		A1B2C3D4E5F6000000000206 /* TradeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000115 /* TradeDataSource.swift */; };
+		A1B2C3D4E5F6000000000207 /* TradeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000116 /* TradeRecord.swift */; };
+		A1B2C3D4E5F6000000000208 /* TradeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000117 /* TradeRepository.swift */; };
+		A1B2C3D4E5F6000000000209 /* AppVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000118 /* AppVisualStyle.swift */; };
+		A1B2C3D4E5F600000000020A /* GlassComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000119 /* GlassComponents.swift */; };
+		A1B2C3D4E5F600000000020B /* PillComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000011A /* PillComponents.swift */; };
+		A1B2C3D4E5F600000000020C /* TradeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000011B /* TradeModels.swift */; };
+		A1B2C3D4E5F600000000020D /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000011C /* RecordsView.swift */; };
+		A1B2C3D4E5F600000000020E /* TradeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000011D /* TradeEditorView.swift */; };
+		A1B2C3D4E5F600000000020F /* WeeklyReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000011E /* WeeklyReportView.swift */; };
+		A1B2C3D4E5F6000000000210 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F600000000011F /* StatsView.swift */; };
+		A1B2C3D4E5F6000000000211 /* ReportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000120 /* ReportService.swift */; };
+		A1B2C3D4E5F6000000000212 /* ReportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000121 /* ReportServiceTests.swift */; };
+		A1B2C3D4E5F6000000000213 /* TradeRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000122 /* TradeRepositoryTests.swift */; };
+		A1B2C3D4E5F6000000000214 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6000000000103 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B2C3D4E5F6000000000501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3D4E5F6000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B2C3D4E5F6000000000401;
+			remoteInfo = TradeReplayAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D4E5F6000000000101 /* TradeReplayAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeReplayAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F6000000000102 /* TradeReplayAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeReplayAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F6000000000103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		A1B2C3D4E5F6000000000104 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000105 /* PROJECT_SETUP.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = PROJECT_SETUP.md; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000110 /* AppShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShellView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000111 /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000112 /* TradeReplayAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeReplayAssistantApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000113 /* LocalTradeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTradeStore.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000114 /* MockRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRemoteDataSource.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000115 /* TradeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeDataSource.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000116 /* TradeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRecord.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000117 /* TradeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRepository.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000118 /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000119 /* GlassComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassComponents.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000011A /* PillComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillComponents.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000011B /* TradeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeModels.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000011C /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000011D /* TradeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeEditorView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000011E /* WeeklyReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyReportView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F600000000011F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000120 /* ReportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportService.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000121 /* ReportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportServiceTests.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6000000000122 /* TradeRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRepositoryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4E5F6000000000302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F6000000000305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F6000000000214 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D4E5F6000000000002 = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000004 /* TradeReplayAssistant */,
+				A1B2C3D4E5F600000000000E /* Tests */,
+				A1B2C3D4E5F6000000000010 /* Frameworks */,
+				A1B2C3D4E5F6000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000101 /* TradeReplayAssistant.app */,
+				A1B2C3D4E5F6000000000102 /* TradeReplayAssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000004 /* TradeReplayAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000005 /* App */,
+				A1B2C3D4E5F6000000000006 /* Domain */,
+				A1B2C3D4E5F6000000000007 /* Data */,
+				A1B2C3D4E5F6000000000008 /* Services */,
+				A1B2C3D4E5F6000000000009 /* DesignSystem */,
+				A1B2C3D4E5F600000000000A /* Features */,
+				A1B2C3D4E5F6000000000104 /* README.md */,
+				A1B2C3D4E5F6000000000105 /* PROJECT_SETUP.md */,
+			);
+			path = TradeReplayAssistant;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000005 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000110 /* AppShellView.swift */,
+				A1B2C3D4E5F6000000000111 /* AppTab.swift */,
+				A1B2C3D4E5F6000000000112 /* TradeReplayAssistantApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000006 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600000000011B /* TradeModels.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000007 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000113 /* LocalTradeStore.swift */,
+				A1B2C3D4E5F6000000000114 /* MockRemoteDataSource.swift */,
+				A1B2C3D4E5F6000000000115 /* TradeDataSource.swift */,
+				A1B2C3D4E5F6000000000116 /* TradeRecord.swift */,
+				A1B2C3D4E5F6000000000117 /* TradeRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000120 /* ReportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000009 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000118 /* AppVisualStyle.swift */,
+				A1B2C3D4E5F6000000000119 /* GlassComponents.swift */,
+				A1B2C3D4E5F600000000011A /* PillComponents.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F600000000000A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600000000000B /* Records */,
+				A1B2C3D4E5F600000000000C /* Stats */,
+				A1B2C3D4E5F600000000000D /* Reports */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F600000000000B /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600000000011C /* RecordsView.swift */,
+				A1B2C3D4E5F600000000011D /* TradeEditorView.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F600000000000C /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600000000011F /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F600000000000D /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600000000011E /* WeeklyReportView.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F600000000000E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F600000000000F /* TradeReplayAssistantTests */,
+			);
+			path = TradeReplayAssistant/Tests;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F600000000000F /* TradeReplayAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000121 /* ReportServiceTests.swift */,
+				A1B2C3D4E5F6000000000122 /* TradeRepositoryTests.swift */,
+			);
+			path = TradeReplayAssistantTests;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F6000000000010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6000000000103 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D4E5F6000000000401 /* TradeReplayAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F6000000000602 /* Build configuration list for PBXNativeTarget "TradeReplayAssistant" */;
+			buildPhases = (
+				A1B2C3D4E5F6000000000301 /* Sources */,
+				A1B2C3D4E5F6000000000302 /* Frameworks */,
+				A1B2C3D4E5F6000000000303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeReplayAssistant;
+			productName = TradeReplayAssistant;
+			productReference = A1B2C3D4E5F6000000000101 /* TradeReplayAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B2C3D4E5F6000000000402 /* TradeReplayAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F6000000000603 /* Build configuration list for PBXNativeTarget "TradeReplayAssistantTests" */;
+			buildPhases = (
+				A1B2C3D4E5F6000000000304 /* Sources */,
+				A1B2C3D4E5F6000000000305 /* Frameworks */,
+				A1B2C3D4E5F6000000000306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B2C3D4E5F6000000000502 /* PBXTargetDependency */,
+			);
+			name = TradeReplayAssistantTests;
+			productName = TradeReplayAssistantTests;
+			productReference = A1B2C3D4E5F6000000000102 /* TradeReplayAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D4E5F6000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A1B2C3D4E5F6000000000401 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A1B2C3D4E5F6000000000402 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A1B2C3D4E5F6000000000401;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D4E5F6000000000601 /* Build configuration list for PBXProject "TradeReplayAssistant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D4E5F6000000000002;
+			productRefGroup = A1B2C3D4E5F6000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D4E5F6000000000401 /* TradeReplayAssistant */,
+				A1B2C3D4E5F6000000000402 /* TradeReplayAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4E5F6000000000303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F6000000000306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4E5F6000000000301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F6000000000201 /* AppShellView.swift in Sources */,
+				A1B2C3D4E5F6000000000202 /* AppTab.swift in Sources */,
+				A1B2C3D4E5F6000000000203 /* TradeReplayAssistantApp.swift in Sources */,
+				A1B2C3D4E5F6000000000204 /* LocalTradeStore.swift in Sources */,
+				A1B2C3D4E5F6000000000205 /* MockRemoteDataSource.swift in Sources */,
+				A1B2C3D4E5F6000000000206 /* TradeDataSource.swift in Sources */,
+				A1B2C3D4E5F6000000000207 /* TradeRecord.swift in Sources */,
+				A1B2C3D4E5F6000000000208 /* TradeRepository.swift in Sources */,
+				A1B2C3D4E5F6000000000209 /* AppVisualStyle.swift in Sources */,
+				A1B2C3D4E5F600000000020A /* GlassComponents.swift in Sources */,
+				A1B2C3D4E5F600000000020B /* PillComponents.swift in Sources */,
+				A1B2C3D4E5F600000000020C /* TradeModels.swift in Sources */,
+				A1B2C3D4E5F600000000020D /* RecordsView.swift in Sources */,
+				A1B2C3D4E5F600000000020E /* TradeEditorView.swift in Sources */,
+				A1B2C3D4E5F600000000020F /* WeeklyReportView.swift in Sources */,
+				A1B2C3D4E5F6000000000210 /* StatsView.swift in Sources */,
+				A1B2C3D4E5F6000000000211 /* ReportService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F6000000000304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F6000000000212 /* ReportServiceTests.swift in Sources */,
+				A1B2C3D4E5F6000000000213 /* TradeRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B2C3D4E5F6000000000502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B2C3D4E5F6000000000401 /* TradeReplayAssistant */;
+			targetProxy = A1B2C3D4E5F6000000000501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4E5F6000000000701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F6000000000702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F6000000000703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "交易复盘助手";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TradeReplayAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F6000000000704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "交易复盘助手";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TradeReplayAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F6000000000705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TradeReplayAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeReplayAssistant.app/TradeReplayAssistant";
+				TEST_TARGET_NAME = TradeReplayAssistant;
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F6000000000706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TradeReplayAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeReplayAssistant.app/TradeReplayAssistant";
+				TEST_TARGET_NAME = TradeReplayAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4E5F6000000000601 /* Build configuration list for PBXProject "TradeReplayAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F6000000000701 /* Debug */,
+				A1B2C3D4E5F6000000000702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D4E5F6000000000602 /* Build configuration list for PBXNativeTarget "TradeReplayAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F6000000000703 /* Debug */,
+				A1B2C3D4E5F6000000000704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D4E5F6000000000603 /* Build configuration list for PBXNativeTarget "TradeReplayAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F6000000000705 /* Debug */,
+				A1B2C3D4E5F6000000000706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B2C3D4E5F6000000000001 /* Project object */;
+}
