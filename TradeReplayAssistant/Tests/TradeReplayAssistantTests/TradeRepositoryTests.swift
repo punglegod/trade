@@ -1,4 +1,5 @@
 import Foundation
+import SwiftData
 import XCTest
 @testable import TradeReplayAssistant
 
@@ -60,6 +61,76 @@ final class TradeRepositoryTests: XCTestCase {
 
         XCTAssertEqual(result.merged.count, 2)
         XCTAssertEqual(result.conflictCount, 0)
+    }
+
+    @MainActor
+    func testRecordStatsReportFlowKeepsBusinessPathWorking() async throws {
+        let container = try ModelContainer(
+            for: TradeRecord.self,
+            configurations: ModelConfiguration("TradeReplayAssistantFlowTests", isStoredInMemoryOnly: true)
+        )
+
+        let repository = TradeRepository(
+            localStore: LocalTradeStore(context: ModelContext(container)),
+            remoteDataSource: MockRemoteDataSource(
+                seed: [],
+                simulatedLatencyNanoseconds: 0,
+                simulatedFailureRate: 0
+            )
+        )
+
+        let now = Date.now
+        let firstTrade = TradeDraft(
+            symbol: "aapl",
+            direction: .long,
+            openTime: now.addingTimeInterval(-3_600),
+            closeTime: now.addingTimeInterval(-1_800),
+            openPrice: 100,
+            closePrice: 110,
+            positionSize: 1,
+            fee: 0,
+            strategyTag: "趋势",
+            mistakeTag: "",
+            notes: "first"
+        )
+
+        let secondTrade = TradeDraft(
+            symbol: "tsla",
+            direction: .short,
+            openTime: now.addingTimeInterval(-7_200),
+            closeTime: now.addingTimeInterval(-5_400),
+            openPrice: 100,
+            closePrice: 90,
+            positionSize: 1,
+            fee: 0,
+            strategyTag: "回落",
+            mistakeTag: "",
+            notes: "second"
+        )
+
+        try await repository.saveTrade(draft: firstTrade, editingID: nil)
+        try await repository.saveTrade(draft: secondTrade, editingID: nil)
+
+        let summaryAfterCreate = repository.summary(for: .last7Days)
+        XCTAssertEqual(summaryAfterCreate.totalTrades, 2)
+        XCTAssertEqual(summaryAfterCreate.totalPnL, 20, accuracy: 0.0001)
+
+        let reportAfterCreate = repository.weeklyReport(referenceDate: now)
+        XCTAssertEqual(reportAfterCreate.summary.totalTrades, 2)
+
+        guard let firstID = repository.filteredTrades.first(where: { $0.symbol == "AAPL" })?.id else {
+            XCTFail("Expected inserted trade not found")
+            return
+        }
+
+        try await repository.deleteTrade(id: firstID)
+
+        let summaryAfterDelete = repository.summary(for: .last7Days)
+        XCTAssertEqual(summaryAfterDelete.totalTrades, 1)
+        XCTAssertEqual(summaryAfterDelete.totalPnL, 10, accuracy: 0.0001)
+
+        let reportAfterDelete = repository.weeklyReport(referenceDate: now)
+        XCTAssertEqual(reportAfterDelete.summary.totalTrades, 1)
     }
 
     private func sampleTrade(symbol: String, pnl: Double) -> TradeSnapshot {
