@@ -33,6 +33,11 @@
 
 可选：执行 `TradeReplayAssistant/scripts/bootstrap_macos.sh` 自动列出工程并打开 Xcode。
 
+## 云端构建与发布（无 Mac）
+
+- CI 构建测试说明：`docs/ios-cloud-build.md`
+- TestFlight 云端发布说明：`docs/ios-testflight-no-mac.md`
+
 ## 关键实现说明
 
 - 数据层采用 `TradeDataSource` 协议，当前实现为 `MockRemoteDataSource`。

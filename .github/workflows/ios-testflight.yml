@@ -1,0 +1,184 @@
+name: iOS Release to TestFlight
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  release-testflight:
+    name: Archive & Upload TestFlight
+    runs-on: macos-latest
+    timeout-minutes: 45
+
+    env:
+      PROJECT_PATH: TradeReplayAssistant.xcodeproj
+      SCHEME: TradeReplayAssistant
+      ARCHIVE_PATH: ${{ runner.temp }}/TradeReplayAssistant.xcarchive
+      EXPORT_PATH: ${{ runner.temp }}/export
+
+      APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+      APP_BUNDLE_ID: ${{ secrets.APP_BUNDLE_ID }}
+      BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
+      BUILD_CERTIFICATE_PASSWORD: ${{ secrets.BUILD_CERTIFICATE_PASSWORD }}
+      BUILD_PROVISION_PROFILE_BASE64: ${{ secrets.BUILD_PROVISION_PROFILE_BASE64 }}
+      BUILD_PROVISION_PROFILE_NAME: ${{ secrets.BUILD_PROVISION_PROFILE_NAME }}
+      APPSTORE_CONNECT_ISSUER_ID: ${{ secrets.APPSTORE_CONNECT_ISSUER_ID }}
+      APPSTORE_CONNECT_KEY_ID: ${{ secrets.APPSTORE_CONNECT_KEY_ID }}
+      APPSTORE_CONNECT_PRIVATE_KEY: ${{ secrets.APPSTORE_CONNECT_PRIVATE_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select latest stable Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Validate required secrets
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            APPLE_TEAM_ID
+            APP_BUNDLE_ID
+            BUILD_CERTIFICATE_BASE64
+            BUILD_CERTIFICATE_PASSWORD
+            BUILD_PROVISION_PROFILE_BASE64
+            BUILD_PROVISION_PROFILE_NAME
+            APPSTORE_CONNECT_ISSUER_ID
+            APPSTORE_CONNECT_KEY_ID
+            APPSTORE_CONNECT_PRIVATE_KEY
+          )
+          for key in "${required[@]}"; do
+            if [ -z "${!key:-}" ]; then
+              echo "::error::Missing required secret: $key"
+              exit 1
+            fi
+          done
+
+      - name: Prepare signing assets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          CERT_PATH="$RUNNER_TEMP/signing_cert.p12"
+          PROFILE_PATH="$RUNNER_TEMP/profile.mobileprovision"
+          KEYCHAIN_PATH="$RUNNER_TEMP/app-signing.keychain-db"
+          KEYCHAIN_PASSWORD="$(uuidgen)"
+
+          python3 - <<'PY'
+          import base64, os
+          cert_b64 = os.environ["BUILD_CERTIFICATE_BASE64"]
+          prof_b64 = os.environ["BUILD_PROVISION_PROFILE_BASE64"]
+          with open(os.environ["RUNNER_TEMP"] + "/signing_cert.p12", "wb") as f:
+              f.write(base64.b64decode(cert_b64))
+          with open(os.environ["RUNNER_TEMP"] + "/profile.mobileprovision", "wb") as f:
+              f.write(base64.b64decode(prof_b64))
+          PY
+
+          security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security list-keychains -d user -s "$KEYCHAIN_PATH"
+          security import "$CERT_PATH" -P "$BUILD_CERTIFICATE_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN_PATH"
+          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+
+          mkdir -p "$HOME/Library/MobileDevice/Provisioning Profiles"
+          cp "$PROFILE_PATH" "$HOME/Library/MobileDevice/Provisioning Profiles/"
+
+      - name: Configure App Store Connect API key
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.appstoreconnect/private_keys"
+          KEY_PATH="$HOME/.appstoreconnect/private_keys/AuthKey_${APPSTORE_CONNECT_KEY_ID}.p8"
+          printf '%s' "$APPSTORE_CONNECT_PRIVATE_KEY" > "$KEY_PATH"
+          chmod 600 "$KEY_PATH"
+
+      - name: Create export options
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > "$RUNNER_TEMP/ExportOptions.plist" <<EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>method</key>
+            <string>app-store</string>
+            <key>signingStyle</key>
+            <string>manual</string>
+            <key>teamID</key>
+            <string>${APPLE_TEAM_ID}</string>
+            <key>provisioningProfiles</key>
+            <dict>
+              <key>${APP_BUNDLE_ID}</key>
+              <string>${BUILD_PROVISION_PROFILE_NAME}</string>
+            </dict>
+            <key>uploadSymbols</key>
+            <true/>
+            <key>compileBitcode</key>
+            <false/>
+          </dict>
+          </plist>
+          EOF
+
+      - name: Archive app
+        shell: bash
+        run: |
+          set -euo pipefail
+          xcodebuild \
+            -project "$PROJECT_PATH" \
+            -scheme "$SCHEME" \
+            -configuration Release \
+            -destination "generic/platform=iOS" \
+            -archivePath "$ARCHIVE_PATH" \
+            DEVELOPMENT_TEAM="$APPLE_TEAM_ID" \
+            PRODUCT_BUNDLE_IDENTIFIER="$APP_BUNDLE_ID" \
+            CODE_SIGN_STYLE=Manual \
+            PROVISIONING_PROFILE_SPECIFIER="$BUILD_PROVISION_PROFILE_NAME" \
+            clean archive
+
+      - name: Export IPA
+        shell: bash
+        run: |
+          set -euo pipefail
+          xcodebuild \
+            -exportArchive \
+            -archivePath "$ARCHIVE_PATH" \
+            -exportPath "$EXPORT_PATH" \
+            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist"
+
+          IPA_PATH="$(find "$EXPORT_PATH" -maxdepth 2 -name '*.ipa' | head -n 1)"
+          if [ -z "${IPA_PATH:-}" ]; then
+            echo "::error::IPA not found under $EXPORT_PATH"
+            exit 1
+          fi
+          echo "IPA_PATH=$IPA_PATH" >> "$GITHUB_ENV"
+
+      - name: Upload to TestFlight
+        shell: bash
+        run: |
+          set -euo pipefail
+          xcrun altool \
+            --upload-app \
+            --type ios \
+            --file "$IPA_PATH" \
+            --apiKey "$APPSTORE_CONNECT_KEY_ID" \
+            --apiIssuer "$APPSTORE_CONNECT_ISSUER_ID" \
+            --verbose
+
+      - name: Upload IPA artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-ipa
+          path: ${{ env.IPA_PATH }}
+          if-no-files-found: warn
+

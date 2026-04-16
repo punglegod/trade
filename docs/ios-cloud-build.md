@@ -21,6 +21,10 @@
 7. 执行 `xcodebuild test`
 8. 上传 `xcresult` 与 `build.log` 作为 artifacts
 
+另外已提供无 Mac 的 TestFlight 发布工作流：
+- `.github/workflows/ios-testflight.yml`
+- 配置方法见：[docs/ios-testflight-no-mac.md](./ios-testflight-no-mac.md)
+
 ## 你现在怎么用
 
 1. 把本地代码推到 GitHub 仓库。
@@ -40,4 +44,5 @@
 
 ## 下一步（可选）
 
-如果你要自动发 TestFlight，需要额外加“签名与发布”workflow（证书、描述文件、App Store Connect API Key secrets）。
+如果你要自动发 TestFlight，直接按文档配置 secrets 并运行发布 workflow：
+- [docs/ios-testflight-no-mac.md](./ios-testflight-no-mac.md)
