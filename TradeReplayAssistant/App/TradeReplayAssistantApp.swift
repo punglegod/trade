@@ -11,9 +11,15 @@ struct TradeReplayAssistantApp: App {
 
     init() {
         do {
+            let isRunningTests = ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil
+            let configurationName = isRunningTests ? "TradeReplayAssistantTests" : "TradeReplayAssistant"
+
             modelContainer = try ModelContainer(
                 for: TradeRecord.self,
-                configurations: ModelConfiguration("TradeReplayAssistant")
+                configurations: ModelConfiguration(
+                    configurationName,
+                    isStoredInMemoryOnly: isRunningTests
+                )
             )
 
             let localStore = LocalTradeStore(context: ModelContext(modelContainer))
