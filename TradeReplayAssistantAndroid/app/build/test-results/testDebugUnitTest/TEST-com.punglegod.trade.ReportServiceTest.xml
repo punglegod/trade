@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.punglegod.trade.ReportServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-04-16T16:26:51" hostname="DESKTOP-KGL0IA8" time="0.043">
-  <properties/>
-  <testcase name="generateWeeklyReport_returnsFallback_whenNoTrades" classname="com.punglegod.trade.ReportServiceTest" time="0.018"/>
-  <testcase name="generateSummary_calculatesCoreMetrics" classname="com.punglegod.trade.ReportServiceTest" time="0.025"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
