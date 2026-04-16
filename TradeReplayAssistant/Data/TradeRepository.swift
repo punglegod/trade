@@ -148,7 +148,7 @@ final class TradeRepository {
         )
     }
 
-    static func mergeByLastWriteWins(
+    nonisolated static func mergeByLastWriteWins(
         local: [TradeSnapshot],
         remote: [TradeSnapshot]
     ) -> MergeResult {
