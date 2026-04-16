@@ -1,0 +1,399 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sunway\.gradle\caches\transforms-4\ee61e1d554af83ac40044241d63bc2e9\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\d42e76a0339783339f15d3eb26cf8b75\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Sunway\.gradle\caches\transforms-4\ad1da9b2549ee04dad06870ec49165b4\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Sunway\.gradle\caches\transforms-4\d2b81d740eafebfa338ba898fd9f1957\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\170c10c8cfa560ee7d70fd4845767008\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\8dab30bc827509c28ac72dc98bc7de97\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Sunway\.gradle\caches\transforms-4\0c4c77703579482a1503d06905310997\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\d06ffc5c043c7d9750e0df5550a80b28\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\32524c1a419106eedb71d6823e151c37\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\896cf1785cf52cb525edb9c9992b5adb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\2e91212b92ba78db6583fd29d4e9e94e\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\6ff82110a690429fca190d2e9ccd7250\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\e02883fc2f1987d8bef1e744448342f2\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\54e2ba3ea962c91fe641372f7016c242\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\32f6e476745dfcae438e47c9759a9c73\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\a9dfa13bd4275007506e1861801be9d2\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\46ac3f1a72d176f92329793e464b65c1\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\01b34ae08122bf1f7dd4a91e4d6d5cf6\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\9307bc3c8731ab8281898e47091d0909\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\19fa46fea448729726ae3028973b0ec6\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b89ac63ac26938103c149dc2e2707500\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\0bfab7d50b2dfdad055865d2fd6a33a8\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\d9c46a17457370300f90e96da5baf77a\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\11f94ec006fe35f218296f5b3cfdcb0c\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\859c78eac2bad46d6a623e334cd372bc\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sunway\.gradle\caches\transforms-4\6d18ddf7700c19d0a9e4d85812145f40\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\9167f56b215141ce0779663baccea54d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\467387490bcc9384942a3fc4587fa360\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Sunway\.gradle\caches\transforms-4\269c428ddda6ee6ac14478f4a7eb3697\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Sunway\.gradle\caches\transforms-4\853212eb993b110c40a72587d981a74c\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\27073f071fff0fd407119bc08e28dc9a\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\58e52bf12a50c95df3fa756af8636ca5\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\68a485499b8be7b3344fbe941976c38e\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\3b24c0dc84a8fd1024a511d66e163f6c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\682e5cca0a0a8d0d15af2d090e98efac\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\176a144ccdbd8d48a40a5d05ffa200d8\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\8adb6ffd9234811cfacc0aa33b283710\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\e6297f3b80861a61a1e2aafa1a82f1c9\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\a8a7601b700115bd780d1420f1a62f81\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\e87ab6d0107a966bd444cdff5c387578\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\c3205f545f8925af436f1e442ac66646\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\1a223f61c973f298f439908693e914d1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\6d93785f84e8da587f147c5605fc811a\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\447a7996ca9df381cbecae50a2945f67\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\e46e97b3be545386dfaed4cfd2596b5d\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\00405146239fd3624ed378a511ea3498\transformed\activity-ktx-1.9.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\d1e5da327038da9e30fae8a78750ece2\transformed\activity-compose-1.9.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\0c93504d653a7b5ff9621ac341911c72\transformed\activity-1.9.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\445cc3dd26346efd703ce487fa739e8e\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\a9356e251f50a58a990ff8fa0e01164d\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\5a0ce491c39f8d662062c01e928715af\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\d50810bef47dcbcf9653448b1329dc2f\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\b387e566ae2acbe729e9ea0adcd776f7\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\82c5bbe460e9656dbe8b78cc14f7b800\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\c235f9dfb009ef4e18447d6cf1255195\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\ed7775b1057bdaf2f6c9e702112559e3\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\6af5002d8a6d61677615ba93a14944a9\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Sunway\.gradle\caches\transforms-4\f9a56bf879ddd269a429758e743647ec\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\09f6c6e86412d305cffc28fca9811b48\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\b10b0b06b5f8231bf71bcc5e38b57374\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\d51244cac44f45009573463f7d3a89b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\324e692b58258cad309d9b99a3926d23\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\b81240776e98bcd8d6fa854abbb33bde\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\0d88f9a687b8657bc010b573d36c5eed\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\5108d4d0d576ed33bfb206fd865b91c6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\17948ad5dcf70fe87a9515db5ac34323\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\8b10a2c040ee9e7b3432abf767d2ba25\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Sunway\.gradle\caches\transforms-4\09c3f29153b9765d865456b56ee9dfba\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:4:5-18:19
+INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:4:5-18:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sunway\.gradle\caches\transforms-4\ee61e1d554af83ac40044241d63bc2e9\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sunway\.gradle\caches\transforms-4\ee61e1d554af83ac40044241d63bc2e9\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\d42e76a0339783339f15d3eb26cf8b75\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\d42e76a0339783339f15d3eb26cf8b75\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\d51244cac44f45009573463f7d3a89b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\d51244cac44f45009573463f7d3a89b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\b81240776e98bcd8d6fa854abbb33bde\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\b81240776e98bcd8d6fa854abbb33bde\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:6:9-31
+	android:allowBackup
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:8:9-58
+activity#com.punglegod.trade.MainActivity
+ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:9:9-17:20
+	android:exported
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:11:13-36
+	android:theme
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:12:13-62
+	android:name
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sunway\.gradle\caches\transforms-4\ee61e1d554af83ac40044241d63bc2e9\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Sunway\.gradle\caches\transforms-4\ee61e1d554af83ac40044241d63bc2e9\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\d42e76a0339783339f15d3eb26cf8b75\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\d42e76a0339783339f15d3eb26cf8b75\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Sunway\.gradle\caches\transforms-4\ad1da9b2549ee04dad06870ec49165b4\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Sunway\.gradle\caches\transforms-4\ad1da9b2549ee04dad06870ec49165b4\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Sunway\.gradle\caches\transforms-4\d2b81d740eafebfa338ba898fd9f1957\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Sunway\.gradle\caches\transforms-4\d2b81d740eafebfa338ba898fd9f1957\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\170c10c8cfa560ee7d70fd4845767008\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\170c10c8cfa560ee7d70fd4845767008\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\8dab30bc827509c28ac72dc98bc7de97\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\8dab30bc827509c28ac72dc98bc7de97\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Sunway\.gradle\caches\transforms-4\0c4c77703579482a1503d06905310997\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Sunway\.gradle\caches\transforms-4\0c4c77703579482a1503d06905310997\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\d06ffc5c043c7d9750e0df5550a80b28\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\d06ffc5c043c7d9750e0df5550a80b28\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\32524c1a419106eedb71d6823e151c37\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\32524c1a419106eedb71d6823e151c37\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\896cf1785cf52cb525edb9c9992b5adb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\896cf1785cf52cb525edb9c9992b5adb\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\2e91212b92ba78db6583fd29d4e9e94e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\2e91212b92ba78db6583fd29d4e9e94e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\6ff82110a690429fca190d2e9ccd7250\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\6ff82110a690429fca190d2e9ccd7250\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\e02883fc2f1987d8bef1e744448342f2\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\e02883fc2f1987d8bef1e744448342f2\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\54e2ba3ea962c91fe641372f7016c242\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\54e2ba3ea962c91fe641372f7016c242\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\32f6e476745dfcae438e47c9759a9c73\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\32f6e476745dfcae438e47c9759a9c73\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\a9dfa13bd4275007506e1861801be9d2\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\a9dfa13bd4275007506e1861801be9d2\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\46ac3f1a72d176f92329793e464b65c1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\46ac3f1a72d176f92329793e464b65c1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\01b34ae08122bf1f7dd4a91e4d6d5cf6\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\01b34ae08122bf1f7dd4a91e4d6d5cf6\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\9307bc3c8731ab8281898e47091d0909\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\9307bc3c8731ab8281898e47091d0909\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\19fa46fea448729726ae3028973b0ec6\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\19fa46fea448729726ae3028973b0ec6\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b89ac63ac26938103c149dc2e2707500\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b89ac63ac26938103c149dc2e2707500\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\0bfab7d50b2dfdad055865d2fd6a33a8\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\0bfab7d50b2dfdad055865d2fd6a33a8\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\d9c46a17457370300f90e96da5baf77a\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\d9c46a17457370300f90e96da5baf77a\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\11f94ec006fe35f218296f5b3cfdcb0c\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\11f94ec006fe35f218296f5b3cfdcb0c\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\859c78eac2bad46d6a623e334cd372bc\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\859c78eac2bad46d6a623e334cd372bc\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sunway\.gradle\caches\transforms-4\6d18ddf7700c19d0a9e4d85812145f40\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sunway\.gradle\caches\transforms-4\6d18ddf7700c19d0a9e4d85812145f40\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\9167f56b215141ce0779663baccea54d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\9167f56b215141ce0779663baccea54d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\467387490bcc9384942a3fc4587fa360\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\467387490bcc9384942a3fc4587fa360\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Sunway\.gradle\caches\transforms-4\269c428ddda6ee6ac14478f4a7eb3697\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Sunway\.gradle\caches\transforms-4\269c428ddda6ee6ac14478f4a7eb3697\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Sunway\.gradle\caches\transforms-4\853212eb993b110c40a72587d981a74c\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Sunway\.gradle\caches\transforms-4\853212eb993b110c40a72587d981a74c\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\27073f071fff0fd407119bc08e28dc9a\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\27073f071fff0fd407119bc08e28dc9a\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\58e52bf12a50c95df3fa756af8636ca5\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\58e52bf12a50c95df3fa756af8636ca5\transformed\lifecycle-livedata-core-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\68a485499b8be7b3344fbe941976c38e\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\68a485499b8be7b3344fbe941976c38e\transformed\lifecycle-livedata-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\3b24c0dc84a8fd1024a511d66e163f6c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\3b24c0dc84a8fd1024a511d66e163f6c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\682e5cca0a0a8d0d15af2d090e98efac\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\682e5cca0a0a8d0d15af2d090e98efac\transformed\lifecycle-livedata-core-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\176a144ccdbd8d48a40a5d05ffa200d8\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\176a144ccdbd8d48a40a5d05ffa200d8\transformed\lifecycle-viewmodel-2.8.5\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\8adb6ffd9234811cfacc0aa33b283710\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\8adb6ffd9234811cfacc0aa33b283710\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\e6297f3b80861a61a1e2aafa1a82f1c9\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\e6297f3b80861a61a1e2aafa1a82f1c9\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\a8a7601b700115bd780d1420f1a62f81\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\a8a7601b700115bd780d1420f1a62f81\transformed\lifecycle-viewmodel-savedstate-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\e87ab6d0107a966bd444cdff5c387578\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\e87ab6d0107a966bd444cdff5c387578\transformed\lifecycle-viewmodel-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\c3205f545f8925af436f1e442ac66646\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\c3205f545f8925af436f1e442ac66646\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\1a223f61c973f298f439908693e914d1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\1a223f61c973f298f439908693e914d1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\6d93785f84e8da587f147c5605fc811a\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\6d93785f84e8da587f147c5605fc811a\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\447a7996ca9df381cbecae50a2945f67\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\447a7996ca9df381cbecae50a2945f67\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\e46e97b3be545386dfaed4cfd2596b5d\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\e46e97b3be545386dfaed4cfd2596b5d\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\00405146239fd3624ed378a511ea3498\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\00405146239fd3624ed378a511ea3498\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\d1e5da327038da9e30fae8a78750ece2\transformed\activity-compose-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\d1e5da327038da9e30fae8a78750ece2\transformed\activity-compose-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\0c93504d653a7b5ff9621ac341911c72\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\Sunway\.gradle\caches\transforms-4\0c93504d653a7b5ff9621ac341911c72\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\445cc3dd26346efd703ce487fa739e8e\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\445cc3dd26346efd703ce487fa739e8e\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\a9356e251f50a58a990ff8fa0e01164d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\a9356e251f50a58a990ff8fa0e01164d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\5a0ce491c39f8d662062c01e928715af\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sunway\.gradle\caches\transforms-4\5a0ce491c39f8d662062c01e928715af\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\d50810bef47dcbcf9653448b1329dc2f\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\d50810bef47dcbcf9653448b1329dc2f\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\b387e566ae2acbe729e9ea0adcd776f7\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Sunway\.gradle\caches\transforms-4\b387e566ae2acbe729e9ea0adcd776f7\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\82c5bbe460e9656dbe8b78cc14f7b800\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\82c5bbe460e9656dbe8b78cc14f7b800\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\c235f9dfb009ef4e18447d6cf1255195\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\c235f9dfb009ef4e18447d6cf1255195\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\ed7775b1057bdaf2f6c9e702112559e3\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\ed7775b1057bdaf2f6c9e702112559e3\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\6af5002d8a6d61677615ba93a14944a9\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\6af5002d8a6d61677615ba93a14944a9\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Sunway\.gradle\caches\transforms-4\f9a56bf879ddd269a429758e743647ec\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Sunway\.gradle\caches\transforms-4\f9a56bf879ddd269a429758e743647ec\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\09f6c6e86412d305cffc28fca9811b48\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\09f6c6e86412d305cffc28fca9811b48\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\b10b0b06b5f8231bf71bcc5e38b57374\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\b10b0b06b5f8231bf71bcc5e38b57374\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\d51244cac44f45009573463f7d3a89b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\d51244cac44f45009573463f7d3a89b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\324e692b58258cad309d9b99a3926d23\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\324e692b58258cad309d9b99a3926d23\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\b81240776e98bcd8d6fa854abbb33bde\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\b81240776e98bcd8d6fa854abbb33bde\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\0d88f9a687b8657bc010b573d36c5eed\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\0d88f9a687b8657bc010b573d36c5eed\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\5108d4d0d576ed33bfb206fd865b91c6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\5108d4d0d576ed33bfb206fd865b91c6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\17948ad5dcf70fe87a9515db5ac34323\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\17948ad5dcf70fe87a9515db5ac34323\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\8b10a2c040ee9e7b3432abf767d2ba25\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sunway\.gradle\caches\transforms-4\8b10a2c040ee9e7b3432abf767d2ba25\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Sunway\.gradle\caches\transforms-4\09c3f29153b9765d865456b56ee9dfba\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Sunway\.gradle\caches\transforms-4\09c3f29153b9765d865456b56ee9dfba\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Code\trade\TradeReplayAssistantAndroid\app\src\main\AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\b78b8ead099656dd98b20bd30f72dc47\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Sunway\.gradle\caches\transforms-4\33013a79e0156197e5d67812de05df2a\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\b81240776e98bcd8d6fa854abbb33bde\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sunway\.gradle\caches\transforms-4\b81240776e98bcd8d6fa854abbb33bde\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Sunway\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] C:\Users\Sunway\.gradle\caches\transforms-4\fa070ef1a82c54dd47393c8436188ad8\transformed\lifecycle-process-2.8.5\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.punglegod.trade.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.punglegod.trade.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Sunway\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Sunway\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
